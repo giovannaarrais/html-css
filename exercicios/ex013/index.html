@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor </p>
+
+    <!-- AS VEZES PODE NÃO RODAR EM ALGUNS NAVEGADORES
+        
+        <video src="videos/video-coffe.mp4" width="400" controls loop >
+    </video>  -->
+
+    <!-- DESSA FORMA PODE GERAR CUSTO ELEVADO PARA O CLIENTE
+    VIDEOS UTILIZADOS DO PEXELS-->
+
+        <video controls width="400" poster="" autoplay loop>
+        <source src="videos/video-coffe.mp4" type="video/mp4">
+        <source src="videos/video-coffe.webm" type="video/webm">
+        <source src="videos/video-coffe.mp4" type="video/ogg">
+
+        <p>Seu navegador não tem compatibilidade com reprodução de vìdeos.</p>
+    </video>
+
+    <!-- FORMA RECOMENDADA POIS ECONOMISA BASTANTE ATÉ PARA A PRÓPRIA HOSPEDAGEM QUE O CLIENTE VAI PAGAR 
+    
+    VIDEO UTILIZADO DO YOUTUBE-->
+
+<h1>Inserindo vídeos do Youtube</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89eIQ-otMnE?si=2c_MMVLCSVsumTws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- PODE ADICIONAR VIDEOS PELOS VIMEO TAMBEM (SERVIÇO PAGO), POREM EVITA PROBLEMAS QUANDO USAR O YOUTUBE E ACABAR APARECNDO CONCORRETES AO ACABAR O VIDEO E DIREITOS AUTORAIS -->
+
+</body>
+</html>

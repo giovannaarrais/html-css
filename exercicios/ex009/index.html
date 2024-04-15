@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>
+        mark{
+            background-color: rgb(185, 139, 228);
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Codigo-fonte / Pré-Formatado</h2>
+     <p>O comando <code>document.getElementById('teste)</code> é escrito em linguagem JavaScript</p>
+
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+print(f'O número {num} é PAR)
+else:
+print(f'O número {num} é ÍMPAR)
+print('Fim do Programa')
+<mark>para deixar uma em baixo da outra usa a (tag pre) ao redor do codigo</mark>
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q> (em citações pode colocar <mark>a tag q </mark> para colocar aspas) </p> 
+
+   <h2>Citações Completas</h2>
+    <p>Segundo sei lá quem bla bla bla:</p>
+
+   <blockquote cite="https://www.portalinsights.com.br/perguntas-frequentes/como-colocar-autor-no-html#:~:text=Se%20você%20primeiro%20referenciar%20o,apresenta-se%20entre%20aspas%20duplas.">
+    Se você primeiro referenciar o autor, para depois fazer a citação, use: Sobrenome (ano, número da página). Lembre-se: apenas a primeira letra do sobrenome em maiúscula. Se a citação tiver algum termo entre aspas " ", coloque-o entre aspas simples, já que a citação em si (a frase toda) apresenta-se entre aspas duplas.(exemplo de alguma citação e link nada a ver)
+   </blockquote>
+<p>(Para fazer uma quebra de linha e centralizar um pouco a citação se usa a <mark>tag blockquote</mark> cite para colocar a citação e o endereço de onde ela veio)</p>
+  <h2>Abreviações</h2>
+    <p> 
+        Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>
+        , estou adorando! vou colocar a abreviação <abbr title="WhatsApp">WPP</abbr> para fazer um teste 
+    (Para colocar significado ao passar o mouse na abreviação usa a <mark>tag abbr e colocar o sig. no title</mark>)
+</p>
+
+   <h2> Texto Invertido</h2>
+    <p>
+    <bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo> (Para deixar a frase invertida usa a <mark>tag bdo e depoios rtl</mark>)
+    </p>
+
+
+</body>
+</html>

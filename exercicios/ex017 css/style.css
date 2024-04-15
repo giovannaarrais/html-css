@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Work Sans' ,Arial, Helvetica, sans-serif sans-serif;/*fonte*/
+
+/* Medidas Absolutas
+cm (centímetro), mm (milímetro), in (polegada), px (pixel)
+
+Medidas Relativas
+em(Tamanho atual da fonte), ex(Altura X da fonte), rem(relativo a fonte configurada no body), vw(porcentagem da view port), vh(altura da view port), %, */
+
+    font-size: 1em;/*tamanho da fonte, somente px e em( EM mais recomendado 1em=16px) */
+
+
+    
+}
+
+h1{
+    font-family: 'work sans' sans-serif;
+    font-weight: bolder; /* peso da fonte - lighter(leve/magra)    normal (normal)   bold(escura/grossa)    bolder(+ negrita ainda) */
+    font-size: 3em;
+    font-style: italic;
+    /* Simplificando as configurações acima
+
+    >>>> Ordem para simplificar: font-style >> font-weight >> font-size >>  font-family
+
+
+    font: italic bolder 3em 'work sans', sans-serif;  */
+    
+}
+
+h2{
+    font: bold 2em 'work sans'; /*simplificando tags em uma so */
+}
+

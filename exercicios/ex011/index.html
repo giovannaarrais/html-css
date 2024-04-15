@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links Externos</h1>
+    <p>
+        Você pode acessar o meu <a href="https://github.com/giovannaarrais" target="_blank">repositório público no GitHub</a>
+    </p>
+
+
+<p>Para adicionar um endereço de link ao clicar na palavra se usa a <mark>tag a</mark> e colocando o link no <mark>href</mark> <br>
+     (dica: para acessar o link sem sair da pagina original se usa a tag target="_blank") 
+      <br>
+      < a href="<ins>link</ins>" <mark>target="_blank</mark>"> <br>
+      é legal colocar tambem rel="external", para indicar para o navegador que é um, link externo 
+      <br>
+      < a href="link" target="_blank"<mark> rel="external"</mark><p>
+
+         <h1>Usando links Internos</h1>
+         <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" rel="next">segunda pagina</a></p>
+         <p>Para entrar em outro site, basta <mark>criar outro arquivo html</mark> (pag002.html) <br>  usar a tag a href="pag002" e é indicado colocar <mark>rel="next"</mark> <br> para o navegador entender que o link é próxima página e na outra página colocar <mark>rel="prev" </mark>para o navegador entender que o link leva para a pagina anterior </p>
+
+        <p>Você também pode acessar a nossa página de notícias, clique <a href="noticias/pag003.html" target="_self" rel="next">aqui</a> </p>
+        
+        <p>Coloca <mark>target="_self"</mark> para indicar que é um link para acessar na mesma página</p>
+
+        <h1>Links para Download</h1>
+        <ul>
+            <li><a href="livro/teste.pdf"  download="teste.pdf"
+                type="application/pdf"
+                >Baixar o livro em PDF</a></li>
+
+            <li><a href="livro/teste.pdf" download="teste.zip" type="application/zip">Livro Compactado em ZIP</a></li>
+        </ul>
+        <p>Para fazer um link download usa a <mark>tag < a href=</mark>"arquivo pdf"  <mark>download=" nome do arquivo" type="application/(formato do arquivo)"</mark>> </p>
+
+        <p>Para encontrar qual type usar no arquivo, apenas acesar site<a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external"> Media Types</a></p>
+</body>
+</html>

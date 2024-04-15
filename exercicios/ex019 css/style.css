@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+     font-family: 'Blazed';
+     src: url('fonts/Blazed.ttf') format('truetype'), url('fonts/Blazed.otf') format('opentype'); 
+     /*tipos de format
+     -oppentype -otf
+     truetype - ttf
+     embedded - opentype
+     truetype-att - apple advanced typhography
+     svg*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BerkshireSwash';
+    src: url(fonts/BerkshireSwash-Regular.ttf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(245, 230, 209);
+}
+
+h1{
+   font-size: 3em;
+   font-family: 'Blazed','Times New Roman', Times, serif; /*o blazed aqui conecta o @ font face com o h1*/
+   font-weight: normal; /*para nao fazer negrito*/
+   text-align: center;
+}
+
+h1{
+    background-color: orange;
+    border-radius: 10px;
+    height: 60px;
+}
+
+h2 {
+    font-family: 'BerkshireSwash';
+    src: url(fonts/BerkshireSwash-Regular.ttf);
+    font-size: 50px;
+    text-align: center;
+    
+
+}
+
+h2{
+    background-color: orange;
+    border-radius: 10px;
+    height: 70px;
+
+}
+

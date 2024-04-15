@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black; /*borda*/
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+}
+
+
+div:hover{
+    background-color: aqua;
+}
+

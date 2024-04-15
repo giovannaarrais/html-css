@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+ font-size: 16px;
+ font-weight: normal;
+ font-family: Arial, Verdana, serif;
+ 
+}
+
+
+h1{
+ text-align: center;
+ background-color: aqua;
+ border-radius: 10px;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+

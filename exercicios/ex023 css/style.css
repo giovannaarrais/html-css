@@ -1,0 +1,54 @@
+/*BOX-LEVEL*/
+h1{ 
+    /*com a tag display: inline; consigo tranformar um box-level em inline-level*/
+
+    background-color: rgba(141, 235, 235, 0.726);
+    height: 300px;
+    width: 300px ;
+    text-align: center;
+    border: 10px solid rgba(23, 60, 221, 0.781);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin: 20px auto 40px auto;
+/*auto calculou automaticamente e centralizou a margin right e left
+
+para centralizar a caixa - margin: auto;*/
+
+   outline: 5px dashed blueviolet;
+}
+
+
+/*INLINE-LEVEL*/
+a{
+    /*display: block; com essa tag consigo transformar uma tag inline-level se tornar box-level*/
+
+    border: 5px solid red;
+    padding: 10px 10px 10px 10px;
+
+ /*se todas as medidas são iguais pode colocar uma unica vez
+    padding: 10px;
+    
+    e quando são dois valores indica que pading: 10px 20px;
+    10px- top e bottom
+    20px- right e left
+    
+*/
+}
+
+/*SIMPLIFICANDO a tag (padding: 10px 15px 10px 15px;)
+              e a tag (margin:  20px 20px 40px 20px;)
+1-top
+2-right
+3-bottom
+4-left
+
+SIMPLIFICANDO a tag (border: 10px solid  blue;)
+                tag (outline: 5px dashed blueviolte;)
+1-widht: 10px;
+2-style: solid;
+3-color: blue;
+*/

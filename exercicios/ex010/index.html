@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas </h1>
+    <H2>Listas Ordenadas</H2>
+    
+   <ol type="1">
+      <li>Acordar</li>
+      <li>Levantar da cama</li>
+      <li>Escovar os dentes</li>
+      <li>Trocar de roupa</li>
+      <li>Tomar café</li>
+   </ol>
+      <p> Listas Ordenadas = quando tem uma sequencia obrigatoria se usa <mark>tag ol</mark> <ins>(pode colocar tipo da sequencia em < ol type=""></ins> e depois <mark>tag li </mark> para separar cada etapa) </p>
+   <h2> Listas não Ordenadas</h2>
+   <ul>
+     <li>Pão</li>
+     <li>Azeite</li> 
+     <li>Feijão</li>
+     <li>Arroz</li>
+     <li>Chocolate</li>
+</ul>
+  <p>Listas não Ordenadas = Nao tem ordem obrigatoria especifica. Pode colocar a <mark>tag ul</mark> <ins> (para selecionar o tipo das bolinhas se coloca < ul type="circle / disc (padrao) / square ">)</ins> e a <mark>tag li</mark> em cada etapa para separa-lás</p>
+
+  <h2>Juntando Listas versão 1.0</h2>
+    <ol>
+      <li>Carros</li>
+        <ol type="a">
+         <li>Ferrari</li>
+         <li>Chevrolet</li>
+         <li>Hyundai</li>
+         <li>Fiat</li>
+        </ol>
+        
+
+      <li>Roupas</li>
+        <ol type="a" >
+            <li>Blusas</li>
+            <li>Shorts</li>
+            <li>Tenis</li>
+            <li>Bonés</li>
+        </ol>
+        <p> Para colocar uma lista ordenada dentro de outra lista, basta apenas colocar a <mark>tag ol e tag li </mark>dentro da <mark>tag ol mãe</mark></p>
+    </ol>
+  <h2>Times Brasileiros e seus jogadores</h2>
+    <ol>
+    <li>Flamengo</li>
+    <ul type="square">
+         <li>Arrascaeta</li>
+         <li>Gabigol</li>
+         <li>Vitinho</li>
+    </ul>
+
+    <li>Brasil</li>
+    <ul type="square"> 
+         <li> Neymar </li>
+         <li>Pombo</li>
+         <li>E sla quem</li>
+    </ul>
+  </ol>
+
+  <p>Para colocar Listas nao ordenadas dentro de Listas ordenadas<br> basta colocar dentro da <mark>tag mae ol + tag li</mark> , colocar a tag ul fazendo com quem esta dentro das numeraçãos nao fique ordenadas</p>
+
+  <h2>Listas de Definições</h2>
+  <dl>
+    <dt>HTML </dt>
+    <dd>
+        Linguagem de marcação básica para criação da base de um site
+    </dd>
+
+    <dt>CSS</dt>
+    <dd>
+        Linaguagem de marcação para criação do design de um site
+    </dd>
+
+    <dt>JavaScript</dt>
+        <dd>
+            Linguagem de programação para a interatividaade de um site
+        </dd>
+    </dd>
+  </dl>
+
+<p>Para fazer uma lista de definições, basta fazer <mark>a tag dl</mark> <ins>(definition list)</ins>, ela da significado e dentro dela colocar a <mark>tag dt </mark>(é o termo a ser trabalhado ) e dentro dela a<mark> tag dd</mark> (significado do termo)
+
+</p>
+</body>
+</html>

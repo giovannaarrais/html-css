@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    margin: 0; /*tira as margens que nao foi possovel totalmente no footer*/
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+/*h1{
+    box-shadow: inset 2px 1px 14px 6px #05050556;
+    inset indica sombra interna
+}*/
+
+nav{
+    background-color: rgb(95, 94, 94);
+    padding: 3px;
+    box-shadow: 5px 5px 5px #0505057a;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.432);
+
+    /*ou border-radius: 20px 30px;
+              ou
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 35px;*/
+}
+
+article{
+    background-color: lightgray;
+
+}
+
+/*article > aside*/
+aside{
+    background-color: rgb(107, 106, 106);
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%; /*fica igual uma bola, pode usar porcentagem*/
+}
