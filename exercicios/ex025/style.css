@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body{
+    background-image: url('images/wallpaper001.jpg');
+}
 
 div.quadrado{
     display: inline-block;
@@ -18,5 +21,5 @@ div#q2{
 }
 
 div#q3{
-    background-image: url('images/');
+    background-image: url('images/pattern003.png');
 }
