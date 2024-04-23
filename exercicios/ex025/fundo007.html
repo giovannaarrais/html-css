@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container{
+            background-image: url('images/target001.png');
+            background-size: 100% 100%;
+            
+            position: relative; /*posicionamento relativo*/
+            height: 96vh; /*vh é a parte branca*/
+            padding: 10px;
+            background-color: purple;
+            
+        }
+        
+        #conteudo{
+            background-image: url('images/target001.png');
+            background-size: 100% 100%;
+            
+            position: absolute; /*posicionamento absoluto posso configurar o top e left*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%); /*para mover o item amarelo para o meio*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

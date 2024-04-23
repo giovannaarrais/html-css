@@ -7,18 +7,25 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+        /*  background-color: black;
             background-image: url('images/wallpaper002.jpg');
             background-position: center center;
             background-repeat: repeat-y;
-            background-size: cover; /*ocupa 100% da viewport*/
+            background-size: cover; ocupa 100% da viewport
             background-attachment: fixed;
+
+
+        shorthand -background
+            color > image > position > repeat > [size] > attachment
+            exemplo: 
+        */
+            background: black url('images/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
 
         main{
-
+            max-width: 500px; /*reponsividade no texto*/
             background-color: white;
-            width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
