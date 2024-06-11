@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw; /*viewport(vw) = medida da tela*/
+            height: 450px;
+            border: 2px solid black;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero quos laborum aperiam explicabo inventore consequatur blanditiis voluptatum reiciendis, repellendus beatae? Voluptate tempora labore deserunt perferendis! Cumque suscipit iusto nihil.
+    Debitis ea quo cupiditate, qui aut velit sequi dicta voluptate repudiandae, sapiente facilis sit ullam officiis amet? Voluptatem amet quo vel illo molestiae, ex repudiandae atque perspiciatis molestias dolorum aspernatur.
+    Tenetur, expedita nesciunt, ab natus iure sit ad sed excepturi necessitatibus non nihil quos. Quos neque deserunt quas dignissimos corrupti iusto, reiciendis esse magni sequi, odit atque nihil nisi quam.</p>
+
+    <ul>
+        <li><a href="paginas/pagina001.html" target="frame">Primeira página</a></li> <!--target aqui serve redirecionar a pagina para dentro do iframe no quadrado-->
+        <li><a href="paginas/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem odit ipsum quo exercitationem. Libero officia quos pariatur adipisci delectus accusamus porro fugit, eligendi esse quis perspiciatis minus eos laborum explicabo!
+    Inventore nemo itaque commodi non odit consectetur, corrupti eaque reiciendis quidem obcaecati qui dolorem. Cumque nihil quibusdam ullam cum illum, exercitationem quos quas doloremque hic tenetur fuga ad suscipit ea.
+    Ratione atque adipisci neque pariatur reiciendis consectetur ipsum, modi iste aliquid recusandae rem ullam eos nam aliquam velit corrupti dignissimos nesciunt alias. Vero debitis in, ab nesciunt repellendus error ipsa!</p>
+
+    <iframe src="https://www.cursoemvideo.com/" id="tela" name="frame"> <!--name serve para carregar as paginas ex 001/iframe002 dentro do quadrado iframe -->
+        <p>Infelizmente seu navegador não é compatível com esse conteúdo.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi ipsum ipsa cum sequi nihil aperiam, est, totam veniam id possimus mollitia quam architecto consequuntur. Placeat debitis eos aliquam totam.
+    Et repellat nemo eos, vel asperiores voluptatum? Odit excepturi, corrupti vitae eius at facere eligendi labore error! Impedit magni blanditiis exercitationem neque rerum! Iste sequi fugit dolores aspernatur? Expedita, nobis!</p>
+</body>
+</html>
