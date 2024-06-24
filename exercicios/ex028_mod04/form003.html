@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <form action="" method="get" autocomplete="on">
+        <p>
+        <label for="iemail">E-mail:</label>
+        <input type="email" name="email" id="iemail" required autocomplete="email">
+        </p>
+
+        <p>
+        <label for="itel">Telefone:</label>
+        <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+        </p>
+        <!--
+        \(\d{2}\)   >>>  DDD()
+        \d{4,5}-    >>>  de 4 a 5 numero 
+        \d{4}       >>>  e de 4 numeros
+        -->
+
+        <!--Estudar RegEx -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

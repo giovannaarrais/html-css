@@ -12,9 +12,16 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off"> <!-- action="cadastro.php" lugar para onde vai os dados cadastrados
+    <form action="cadastro.php" method="post" autocomplete="off"> <!-- action="cadastro.php" lugar para onde vai os dados cadastrados
 
-    autocomplete="off" tira o completamento automatico das caixas no site-->
+    autocomplete="off" tira o completamento automatico das caixas no site
+
+    method get / post >>
+    get  >>>> para dados simples(nome,sobrenome)
+    post >>>> para dados mais sigilosos(senha, ususario,imagens, arquivos)
+    -->
+
+
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome" ></p>
 
@@ -28,7 +35,6 @@
         <p><input type="submit" value="Enviar"></p> 
         <!--input:submit >>> submeter=enviar-->
 
-        
     </form>
 </body>
 </html>
