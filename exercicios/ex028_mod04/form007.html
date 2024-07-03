@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadatro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Mais conhecidas">
+                    <option value="SP">São Paulo</option>
+                    <option value="DF" selected>Distrito Federal</option> <!--selected = ja deixa selecionado-->
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Menos conhecidas">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PI">Piauí</option>
+                </optgroup>
+
+
+
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listaprof">
+            <datalist id="listaprof"><!--cria uma lista dentro da caixa e tem que colocar o id no id do input-->
+                <option >Administrador</option>
+                <option >Contabilista</option>
+                <option >Desenvolvedor</option>
+                <option >Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="minimo 20 caracteres"></textarea>
+        </p>
+    <!-- cols="30"   ====     quantas colunas  
+         rows="10"   ====      qunatas linhas vao aparecer-->
+
+        <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+        </p>
+    
+    </form>
+</body>
+</html>
